@@ -1,0 +1,306 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 100px;
+    position: relative;
+}
+
+#intestazione {
+    width: 95%;
+    height: 95%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 100%;
+}
+
+#intestazione img:nth-child(1) {
+    margin-right: 50%;
+    width: 18%;
+    object-fit: cover;
+}
+
+#intestazione img:nth-child(2) {
+    margin: 1%;
+    width: 1.5%;
+    object-fit: contain;
+}
+
+#intestazione img:nth-child(3) {
+    margin: 1%;
+    width: 1.5%;
+    object-fit: contain;
+}
+
+#intestazione img:nth-child(4) {
+    margin: 1%;
+    width: 1.5%;
+    object-fit: contain;
+}
+
+#intestazione p:nth-child(5) {
+    margin: 1%;
+    padding: 0.7%;
+    border: solid 1px;
+    border-color: black;
+    border-radius: 25px;
+}
+
+#intestazione p:nth-child(6) {
+    margin: 1%;
+    padding: 0.7%;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+}
+
+main {
+    display: flex;
+}
+
+article {
+    width: 60.66%;
+    margin-inline: 3%;
+    margin-top: 2%;
+}
+
+#pagine {
+    width: 60%;
+    background-color: red;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+#pagine p {
+    margin-right: 2%;
+}
+
+#pagine p:hover {
+    font-weight: bolder;
+}
+
+section {
+    margin-top: 2%;
+    margin-bottom: 8%;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+}
+
+.descrizione {
+    width: 75%;
+    position: relative;
+}
+
+.autore {
+    height: 40px;
+    display: flex;
+}
+
+.contenitore {
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    border: solid 1px;
+    border-color: rgb(0, 98, 255);
+    border-radius: 10px;
+}
+
+.autore img {
+    object-fit: cover;
+    width: 140%;
+    translate: -15% 6%;
+}
+
+.autore p {
+    font-weight: bolder;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.fondo {
+    height: 37px;
+    display: flex;
+    font-size: 15px;
+    color: grey;
+    position: absolute;
+}
+
+.fondo p {
+    margin: 10px;
+}
+
+.icon {
+    display: flex;
+    height: 37px;
+    position: absolute;
+    right: 0px;
+}
+
+.icon > img {
+    width: 30%;
+    object-fit: contain;
+    margin: 4px;
+}
+
+section > img {
+    object-fit: contain;
+    width: 13%;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    translate: 0% -50%;
+}
+
+aside {
+    width: 33.33%;
+    margin-right: 3%;
+    position: sticky;
+    top: 100px;
+}
+
+#twitter {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loghi {
+    height: 100em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loghi > img {
+    width: 3em;
+    object-fit: contain;
+}
+
+.loghi:first-of-type p {
+    font-size: x-large;
+    margin: 0.3em;
+}
+
+#twitter a {
+    margin: 0.7em;
+}
+
+.destra {
+    height: 200px;
+    margin-block: 2em;
+}
+
+.tag {
+    flex-wrap: wrap;
+    margin-block: 0.7em;
+}
+
+.destra h2 {
+    font-size: large;
+    margin: 0em;
+}
+
+.tag p {
+    display: inline-block;
+    margin-block: 0.5em;
+    margin-right: 1.5em;
+    background-color: lightgrey;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+#follow {
+    height: 22em;
+}
+
+#follow h2 {
+    font-size: large;
+}
+
+.profilo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.profilo img {
+    display: inline-block;
+    object-fit: cover;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 1.5em;
+}
+
+.colonna {
+    width: 18em;
+    height: 5em;
+}
+
+.colonna h2 {
+    margin-bottom: 0.1em;
+}
+
+.colonna p {
+    margin-top: 0em;
+}
+
+.profilo > p {
+    padding: 0.4em;
+    padding-inline: 0.6em;
+    border: solid 0.1em;
+    border-color: grey;
+    border-radius: 1em;
+}
+
+.salvati {
+    height: 9em;
+    margin: 0em;
+    margin-bottom: 2em;
+}
+
+.salvati > h2 {
+    font-size: x-large;
+}
+
+.serie {
+    overflow: hidden;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.serie > img {
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    object-fit: cover;
+    border-radius: 1em;
+}
+
+.serie > p {
+    width: 23.5em;
+}
+
+#fine {
+    margin-top: 17em;
+    height: 350px;
+    flex-wrap: wrap;
+}
+
+#fine a {
+    display: inline-block;
+    margin-right: 2em;
+    margin-top: 1em;
+}
